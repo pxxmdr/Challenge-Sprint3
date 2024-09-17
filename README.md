@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+Challenge Porto Seguro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrição: O projeto Challenge Porto Seguro é uma aplicação desenvolvida para resolver problemas de veículos através de um formulário interativo. A aplicação funciona como um funil de perguntas e respostas, ajudando o usuário a diagnosticar o problema do carro com base nas informações fornecidas. Além disso, oferece um guia básico de peças, fornecendo informações úteis para usuários leigos e auxiliando os mais experientes.
 
-Currently, two official plugins are available:
+Tecnologias
+React: Biblioteca para construção da interface de usuário através do VITE
+TypeScript: Linguagem para garantir a segurança de tipo
+Styled Components: Biblioteca para estilização de componentes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Contato
+Para qualquer dúvida ou sugestão, entre em contato com:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Pedro Henrique Martins dos Reis: pedro.reis_04@hotmail.com
+Cleidy Camila Zagarrundo: rm557158@fiap.com.br
+Thiago Alves Santos: rm556805@fiap.com.br

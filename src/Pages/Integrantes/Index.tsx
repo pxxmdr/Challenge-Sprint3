@@ -16,7 +16,7 @@ const homeNavegationItems = [
 
 const Integrantes = () => {
   return (
-    <Layout pageTitle="Manual de peças" navItems={homeNavegationItems}>
+    <Layout pageTitle="Capa de Integrantes" navItems={homeNavegationItems}>
       <BreadCrumb
         navigationItems={[
           { path: "/Login", name: "Login" },
