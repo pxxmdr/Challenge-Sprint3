@@ -1,5 +1,4 @@
 import { BreadCrumb } from "../../components/BreadCrumb/BreadCrumb";
-import { Card } from "../../components/Card/Card";
 import { Layout } from "../../components/Layout/Layout";
 
 const homeNavegationItems = [
